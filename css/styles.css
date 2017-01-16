@@ -64,17 +64,21 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+  font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .tag {
-  color: black;
-  padding: 10px;
-  letter-spacing: 5px;
+  color: rgb(45, 43, 48);
+  text-transform: uppercase;
+  font-size: 2.5em;
+  padding-top: 50px;
 }
 
 .name{
@@ -86,9 +90,10 @@ header .name{
 }
 .tagline {
   font-weight: 600;
-  padding: 20px;
-  text-transform: uppercase;
-  color: #ff748f
+  text-transform: lowercase;
+  color: #ff748f;
+  font-size: 1.5em;
+  margin: 0;
 }
 
 .card {
@@ -188,6 +193,18 @@ a.social:hover {
 
   header {
     min-height: 470px;
+  }
+
+ .tag {
+    font-size: 4.5em;
+    margin: 62px 0 6px;
+    padding: 30px;
+
+  }
+
+  .tagline {
+    font-size: 2.2em;
+
   }
 
   .nav {
